@@ -20,7 +20,7 @@ CREATE TABLE IF NOT EXISTS surveys.surveys_recipients
 (
     id                  bigserial primary key,
     recipient_id        bigserial references surveys.recipient (id),
-    survey_recipient_id bigserial references surveys.surveys_recipients (id)
+    survey_id bigserial references surveys.surveys (id)
 );
 
 CREATE TABLE IF NOT EXISTS surveys.report
