@@ -11,7 +11,7 @@ import javax.persistence.*;
 @EqualsAndHashCode
 @Entity
 @Table(schema = "surveys", name = "surveys_recipients")
-public class SurveyRecipients {
+public class SurveyRecipient {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
