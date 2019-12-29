@@ -29,4 +29,27 @@ public class SurveyResponse {
         this.surveyTemplateId = survey.getSurveyTemplate().getId();
     }
 
+    public Long getId() {
+        return id;
+    }
+
+    public Boolean getStatus() {
+        return status;
+    }
+
+    public int getAmount() {
+        return amount;
+    }
+
+    public LocalDateTime getEndDate() {
+        return endDate;
+    }
+
+    public Long getSurveyTemplateId() {
+        return surveyTemplateId;
+    }
+
+    public List<SurveyQuestion> getSurveyQuestions() {
+        return surveyQuestions;
+    }
 }

@@ -41,3 +41,4 @@ CREATE TABLE IF NOT EXISTS surveys.question_answers
     question_id bigserial references survey_templates.survey_question (id),
     answer      integer
 );
+/*creiranje na sema surveys*/

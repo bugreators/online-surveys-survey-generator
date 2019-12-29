@@ -3,7 +3,7 @@ package mk.finki.ukim.dians.surveygenerator.surveygeneratorcore.domain.jpamodels
 import lombok.*;
 
 import javax.persistence.*;
-
+/** Definicija na model i negovo mapiranje  so JPA anotacii*/
 @Getter
 @Setter
 @NoArgsConstructor

@@ -2,18 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7173feee-b638-4fbb-97b6-dc413491bd51" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/survey-generator-core/src/main/java/mk/finki/ukim/dians/surveygenerator/surveygeneratorcore/api/SurveyController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/survey-generator-core/src/main/java/mk/finki/ukim/dians/surveygenerator/surveygeneratorcore/api/SurveyResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/survey-generator-core/src/main/java/mk/finki/ukim/dians/surveygenerator/surveygeneratorcore/api/SurveyTemplateController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/ebfe0bd6-552e-4d91-8d6b-e96d41740bb2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/ebfe0bd6-552e-4d91-8d6b-e96d41740bb2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/ebfe0bd6-552e-4d91-8d6b-e96d41740bb2/storage_v2/_src_/database/surveys.WUSRkQ/schema/information_schema.FNRwLQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/ebfe0bd6-552e-4d91-8d6b-e96d41740bb2/storage_v2/_src_/database/surveys.WUSRkQ/schema/information_schema.FNRwLQ.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/ebfe0bd6-552e-4d91-8d6b-e96d41740bb2/storage_v2/_src_/database/surveys.WUSRkQ/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/ebfe0bd6-552e-4d91-8d6b-e96d41740bb2/storage_v2/_src_/database/surveys.WUSRkQ/schema/pg_catalog.0S1ZNQ.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/ebfe0bd6-552e-4d91-8d6b-e96d41740bb2/storage_v2/_src_/database/surveys.WUSRkQ/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/ebfe0bd6-552e-4d91-8d6b-e96d41740bb2/storage_v2/_src_/database/surveys.WUSRkQ/schema/public.abK9xQ.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/ebfe0bd6-552e-4d91-8d6b-e96d41740bb2/storage_v2/_src_/database/surveys.WUSRkQ/schema/users.CI6mBg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/ebfe0bd6-552e-4d91-8d6b-e96d41740bb2/storage_v2/_src_/database/surveys.WUSRkQ/schema/users.CI6mBg.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_flywaydb_flyway_core_6_1_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/survey-generator-core/src/main/java/mk/finki/ukim/dians/surveygenerator/surveygeneratorcore/persistence/SurveyQuestionRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/survey-generator-core/src/main/java/mk/finki/ukim/dians/surveygenerator/surveygeneratorcore/persistence/SurveyQuestionRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/survey-generator-core/src/main/java/mk/finki/ukim/dians/surveygenerator/surveygeneratorcore/api/SurveyTemplateResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API-Gateway/src/main/java/mk/finki/ukim/dians/apigateway/APIGateway/ApiGatewayApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/API-Gateway/src/main/java/mk/finki/ukim/dians/apigateway/APIGateway/ApiGatewayApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API-Gateway/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/API-Gateway/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/survey-generator-core/src/main/java/mk/finki/ukim/dians/surveygenerator/surveygeneratorcore/api/SurveyController.java" beforeDir="false" afterPath="$PROJECT_DIR$/survey-generator-core/src/main/java/mk/finki/ukim/dians/surveygenerator/surveygeneratorcore/api/SurveyController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/survey-generator-core/src/main/java/mk/finki/ukim/dians/surveygenerator/surveygeneratorcore/api/SurveyResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/survey-generator-core/src/main/java/mk/finki/ukim/dians/surveygenerator/surveygeneratorcore/api/SurveyResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/survey-generator-core/src/main/java/mk/finki/ukim/dians/surveygenerator/surveygeneratorcore/api/SurveyTemplateController.java" beforeDir="false" afterPath="$PROJECT_DIR$/survey-generator-core/src/main/java/mk/finki/ukim/dians/surveygenerator/surveygeneratorcore/api/SurveyTemplateController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/survey-generator-core/src/main/java/mk/finki/ukim/dians/surveygenerator/surveygeneratorcore/api/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/survey-generator-core/src/main/java/mk/finki/ukim/dians/surveygenerator/surveygeneratorcore/api/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/survey-generator-core/src/main/java/mk/finki/ukim/dians/surveygenerator/surveygeneratorcore/domain/jpamodels/QuestionAnswers.java" beforeDir="false" afterPath="$PROJECT_DIR$/survey-generator-core/src/main/java/mk/finki/ukim/dians/surveygenerator/surveygeneratorcore/domain/jpamodels/QuestionAnswers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/survey-generator-core/src/main/java/mk/finki/ukim/dians/surveygenerator/surveygeneratorcore/service/SurveyService.java" beforeDir="false" afterPath="$PROJECT_DIR$/survey-generator-core/src/main/java/mk/finki/ukim/dians/surveygenerator/surveygeneratorcore/service/SurveyService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/survey-generator-core/src/main/java/mk/finki/ukim/dians/surveygenerator/surveygeneratorcore/service/SurveyTemplateService.java" beforeDir="false" afterPath="$PROJECT_DIR$/survey-generator-core/src/main/java/mk/finki/ukim/dians/surveygenerator/surveygeneratorcore/service/SurveyTemplateService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/survey-generator-core/src/main/resources/db/migration/V1__users_table.sql" beforeDir="false" afterPath="$PROJECT_DIR$/survey-generator-core/src/main/resources/db/migration/V1__users_table.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/survey-generator-core/src/main/resources/db/migration/V2__survey_template.sql" beforeDir="false" afterPath="$PROJECT_DIR$/survey-generator-core/src/main/resources/db/migration/V2__survey_template.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/survey-generator-core/src/main/resources/db/migration/V3__surveys_answers.sql" beforeDir="false" afterPath="$PROJECT_DIR$/survey-generator-core/src/main/resources/db/migration/V3__surveys_answers.sql" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -214,7 +215,7 @@
       <updated>1577544095401</updated>
       <workItem from="1577544096600" duration="10038000" />
       <workItem from="1577555475668" duration="9125000" />
-      <workItem from="1577628900122" duration="6982000" />
+      <workItem from="1577628900122" duration="8388000" />
     </task>
     <task id="LOCAL-00001" summary="V2 migration">
       <created>1577555072762</created>
@@ -258,7 +259,14 @@
       <option name="project" value="LOCAL" />
       <updated>1577634541922</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="cosmetic changes">
+      <created>1577636607604</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1577636607604</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -284,6 +292,7 @@
     <MESSAGE value="models from schema surveys" />
     <MESSAGE value="repository added" />
     <MESSAGE value="user API" />
-    <option name="LAST_COMMIT_MESSAGE" value="user API" />
+    <MESSAGE value="cosmetic changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="cosmetic changes" />
   </component>
 </project>

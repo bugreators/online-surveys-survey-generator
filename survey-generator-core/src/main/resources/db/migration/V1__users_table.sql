@@ -5,3 +5,4 @@ CREATE TABLE IF NOT EXISTS users.users(
     password text not null ,
     email text unique not null
 );
+/*Setap na tabela users*/

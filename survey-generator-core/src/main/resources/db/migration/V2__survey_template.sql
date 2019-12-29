@@ -16,3 +16,4 @@ CREATE TABLE IF NOT EXISTS survey_templates.survey_question(
     text text ,
     survey_template_id bigserial references survey_templates.survey_templates(id)
 );
+/*Setap na sema survey_templates*/

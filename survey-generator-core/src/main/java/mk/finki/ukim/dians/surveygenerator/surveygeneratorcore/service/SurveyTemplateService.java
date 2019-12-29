@@ -9,7 +9,7 @@ import org.springframework.stereotype.Service;
 
 import java.util.List;
 
-
+/**Definiranje na service bean za surveytemplate */
 @Service
 public class SurveyTemplateService {
 
@@ -18,15 +18,15 @@ public class SurveyTemplateService {
     public SurveyTemplateService(SurveyTemplateRepository repository, SurveyQuestionRepository surveyQuestionRepository) {
         this.repository = repository;
     }
-
+/**Kreiranje na survey Template*/
     public SurveyTemplate createSurvey(SurveyTemplateRequest request) {
         return repository.save(new SurveyTemplate(1L, request.getName()));
     }
-
+/** Update na survey template*/
     public SurveyTemplate updateSurveyTemplate(SurveyTemplateRequest request) {
         return repository.save(new SurveyTemplate(1L, request.getName()));
     }
-
+/**Brisenje na survey template*/
     public void delete(Long id) {
         if (repository.existsById(id)) {
             repository.deleteById(id);
