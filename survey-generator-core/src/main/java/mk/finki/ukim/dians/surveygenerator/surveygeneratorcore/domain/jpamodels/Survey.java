@@ -1,4 +1,4 @@
-package mk.finki.ukim.dians.surveygenerator.surveygeneratorcore.domain;
+package mk.finki.ukim.dians.surveygenerator.surveygeneratorcore.domain.jpamodels;
 
 import lombok.*;
 
@@ -26,5 +26,9 @@ public class Survey {
 
     @Column(name = "end_time")
     private LocalDateTime endDate;
+
+    @ManyToOne
+    @JoinColumn(name = "survey_template_id")
+    private SurveyTemplate surveyTemplate;
 
 }

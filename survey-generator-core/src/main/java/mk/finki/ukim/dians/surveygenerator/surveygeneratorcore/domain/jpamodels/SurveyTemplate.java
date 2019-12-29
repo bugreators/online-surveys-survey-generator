@@ -1,4 +1,4 @@
-package mk.finki.ukim.dians.surveygenerator.surveygeneratorcore.domain;
+package mk.finki.ukim.dians.surveygenerator.surveygeneratorcore.domain.jpamodels;
 
 import lombok.*;
 

@@ -1,4 +1,4 @@
-package mk.finki.ukim.dians.surveygenerator.surveygeneratorcore.domain;
+package mk.finki.ukim.dians.surveygenerator.surveygeneratorcore.domain.jpamodels;
 
 import lombok.*;
 
@@ -10,20 +10,17 @@ import javax.persistence.*;
 @AllArgsConstructor
 @EqualsAndHashCode
 @Entity
-@Table(schema = "users",name = "users")
-public class User {
+@Table(schema = "surveys", name = "recipient")
+public class Recipient {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @Column(name = "username")
-    private String username;
-
-    @Column(name="password")
-    private String password;
-
     @Column(name = "email")
     private String email;
+
+    @Column (name = "status")
+    private Boolean status;
 
 }

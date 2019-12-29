@@ -1,6 +1,6 @@
 package mk.finki.ukim.dians.surveygenerator.surveygeneratorcore.persistence;
 
-import mk.finki.ukim.dians.surveygenerator.surveygeneratorcore.domain.Survey;
+import mk.finki.ukim.dians.surveygenerator.surveygeneratorcore.domain.jpamodels.Survey;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
